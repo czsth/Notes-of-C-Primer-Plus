@@ -1,4 +1,5 @@
 #stdarg.h
+
 `stdarg.h` provided a way to pass variable number of arguments to a function.
 See what was defined in the header first:
 
