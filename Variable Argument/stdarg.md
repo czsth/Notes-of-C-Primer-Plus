@@ -1,6 +1,7 @@
 #stdarg.h
 `stdarg.h` provided a way to pass variable number of arguments to a function.
 See what was defined in the header first:
+
 |Type|Description|
 |---|---|
 |va_list|holds the information needed by va_start, va_arg, va_end, and va_copy(typedef)|
