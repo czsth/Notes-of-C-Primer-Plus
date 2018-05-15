@@ -1,0 +1,16 @@
+Designated initializer is a new characteristic in C99, used to desinate a value for a specific position in an array.
+As usual, position that was not designated with a value will be filled with 0.
+Also, if mixed with normal initializer, for example, assigned twice: the final value will be the latter.
+
+Caution: if code:
+```
+int arr[] = {1, 2, 3, [4] = 4, 5};
+```
+The value will be:
+0.1
+1.2
+2.3
+3.0
+4.4
+5.5
+And the size of the array is 6.

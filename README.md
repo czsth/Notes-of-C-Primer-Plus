@@ -1,4 +1,6 @@
 # Notes-of-C-Primer-Plus
-These are some important or detailed(in another word, those I didn't know before reading it) things in *C Primer Plus*.
+These are some important or detailed(in another word, those I didn't know before reading it) things in *C Primer Plus(4th edition)*.
 
-created in 2018/5/15
+Not included knowledge about data structure.
+
+finished in 2018/5/15

@@ -1,0 +1,5 @@
+_Bool type is only available after C99, and the value of a _Bool variable could only be 1 or 0(mind: not "true" or "false").
+And the different between "int" and it is about the storage it occupies, 1 byte.
+
+In C99, as another way, you are allowed to include <stdbool.h> to use "bool" instead of "_Bool", and you are also allowed to use "true" and
+"false", which was defined as 1 and 0 respectively.
